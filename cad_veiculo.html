@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reserve Park</title>
+    <meta name="keywords" content="Sistema para veterinário, Sistema para Banho e tosa">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="img/icone.png"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>  
+
+    <!-- materialize css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	 <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- GOOGLE ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+
+<!-- LINHA -->
+<div class="linha1">
+
+    <p class="email_topo1"> Usuário:&nbsp;&nbsp; jpgomes@hotmail.com  &nbsp;&nbsp;&nbsp;/
+    &nbsp;&nbsp;&nbsp; <a href="sair.html" class="letra_branca">SAIR</a> 
+    </p>
+</div>
+
+
+<!-- LOGO / MEUS DADOS -->
+<nav class="navbar1 fundo_branco">
+	<div class="content1">
+        <div class="">
+        <a href="index.html" class=""><img src="img/logo.jpg" alt="Logo"></a>
+        <ul class="right hide-on-med-and-down lista1">
+        <li><a href="veiculos.html">Meus Veiculos</a></li>
+        <li><a href="reserva_usuario.html">Minhas Reservas</a></li>
+        </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+
+<!-- INÍCIO -->
+<div class="content1 inicio1">
+  <table width="100" border="1" bordercolor="#f5f5f5">
+    <tr>
+      <td width="20" height="57"><i class="material-icons" style="font-size: 1.5rem;">location_on</i></td>
+      <td width="819" height="57">Veiculos:</td>
+      <td width="165" height="57"><button class="vermelho btn-inicio"> <a href="cad_veiculo.html" class="letra_branca">+ NOVO VEICULO </a></button></td>
+    </tr>
+  </table>
+
+  <hr class="linha vermelho" style="width: 100%; height: 1px; border: none; margin-top:-10px;"> <br>
+
+  <div class="row">
+    <form class=" content2">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="AAA-1234" id="placa" type="text" class="validate" maxlength="7">
+          <label for="placa" id="placa">Placa:</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="modelo" type="text" class="validate">
+          <label for="modelo">Modelo:</label>
+        </div>
+        </div>
+        <div class="row">
+        <div class="input-field col s6">
+          <input id="fabricante" type="text" class="validate">
+        <label for="fabricante" id="fabricante">Fabricante:</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="modelo" type="number" class="validate" max="4">
+          <label>Ano fabricação</label>
+        </div>
+      </div>
+      <p class="alinhamento_centro">
+        <input name="seguro" type="radio" id="seguro"/>
+        <label for="seguro">Possui seguro</label>
+
+        <input name="seguro" type="radio" id="seguro" />
+        <label for="seguro">Não Possui seguro</label>
+      </p>
+      <div class="alinhamento_centro" style="margin-top: 25px">
+        <a class="waves-effect waves-light btn" href="##">Cadastrar</a>
+      </div>
+    </form>
+
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="container1 footer letra_branca alinhamento_centro vermelho">
+    <p>Reserve Park</p>
+    <p>© Todos os Direitos reservados 2010-2022</p>
+    <p>(11) 9.95624-9875</p>
+    <p>reservepark@gmail.com</p>
+</footer>
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Materialize JS -->
+<script src="js/materialize.js"></script>
+
+
+</body>
+</html>
